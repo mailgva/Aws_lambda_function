@@ -1,0 +1,71 @@
+{
+	"id": "0767e17b-c1b2-aa4d-27a7-34171d7cebcc",
+	"name": "Aws_lambda_function",
+	"description": "",
+	"order": [
+		"40f5a5cb-3d88-c17c-1b8f-241f0f38ed30",
+		"2bbd2a3c-57e6-2f0a-21b5-123c3a429cba"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1638865036383,
+	"owner": "6019285",
+	"public": false,
+	"requests": [
+		{
+			"id": "2bbd2a3c-57e6-2f0a-21b5-123c3a429cba",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/reverseString",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0767e17b-c1b2-aa4d-27a7-34171d7cebcc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/reverseString",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1638865056626,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "Hello world"
+		},
+		{
+			"id": "40f5a5cb-3d88-c17c-1b8f-241f0f38ed30",
+			"headers": "Content-Type: text/plain\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "text/plain",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/greeter",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0767e17b-c1b2-aa4d-27a7-34171d7cebcc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/greeter",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1638865042184,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "Vladimir"
+		}
+	]
+}
